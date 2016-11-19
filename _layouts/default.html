@@ -20,13 +20,11 @@
 			{{ content }}
 			
 			</div>
-			<footer> 
-	    		 <ul> 
-	        		<li><a href="mailto:jeremy.barnes@upf.edu">email</a></li> 
-	        		<li><a href="https://github.com/jbarnesspain">github.com/jbarnesspain</a></li> 
-			</ul> 
-			 </footer> 
 	
-			
+			<footer class="footer">
+  {% if site.footer-links.github %}<a href="http://github.com/{{ site.footer-links.github }}">{% include svg-icons/github.html %}</a>{% endif %}
+  {% if site.footer-links.twitter %}<a href="http://twitter.com/{{ site.footer-links.twitter }}">{% include svg-icons/twitter.html %}</a>{% endif %}
+			</footer>
+
 		</body>
 	</html>
