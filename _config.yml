@@ -3,3 +3,4 @@ comments: true
 markdown: kramdown
 github: jbarnesspain
 twitter: jbarnesspain
+permalink: /blog/:year/:month/:day/:title
