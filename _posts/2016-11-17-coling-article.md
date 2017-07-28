@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archive
 title: "COLING Article"
 date: 2016-11-17
 ---

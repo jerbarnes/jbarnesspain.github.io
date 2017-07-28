@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archive
 title: "First Post, Site Up"
 date: 2016-11-16
 ---
