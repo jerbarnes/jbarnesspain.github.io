@@ -280,13 +280,24 @@
 
 <p>State-of-the-art is a tricky concept. In sentiment analysis, which approach
 works best often depends on the data you have at hand, whether your interested
-in knowing the general sentiment of a document (document-level sentiment analysis)
-or if you want to know what the sentiment is of a specific target entity 
-(aspect-level sentiment analysis).</p>
+in knowing the general sentiment of a document or sentence, which is
+dominated by neural networks,
+or if you want to know what the sentiment is of a specific target entity,
+where an ensemble of techniques often gives the best results.</p>
 
 <p>Another obstacle is that we often don’t have the time or energy to devote 
 to reimplementing others’ approaches and rely on the results they present
 in their papers.</p>
+
+<h3 id="experiment"><strong>Experiment</strong></h3>
+<hr />
+
+<p>We were interested in seeing if any particular model was better
+on a certain kind of data, or if there was one model that would perform better
+overall. We decided to choose 7 standard sentiment models and look more at
+some of the hyperparameters which are often ignored.</p>
+
+<p>We ran 7 different models on 6 different datasets with different characteristics <a href="../downloads/sota_sentiment.pdf">(you can find the details here</a>).</p>
 
 <h3 id="results"><strong>Results</strong></h3>
 <hr />
@@ -304,6 +315,28 @@ the big winners.</p>
 
   </div>
 </div>
+
+ <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//jbarnesblog.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
 
     <div class="page__footer">
       <footer>
