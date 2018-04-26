@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "MultiBooked Corpus"
+title: "MultiBooked Corpus accepted in LREC 2018"
 date: 2018-01-06
 ---
 

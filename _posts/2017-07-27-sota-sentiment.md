@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "State-of-the-art in Sentiment Analysis"
+title: "State-of-the-art in Sentiment Analysis accepted to WASSA 2017"
 date: 2017-07-27
 ---
 
