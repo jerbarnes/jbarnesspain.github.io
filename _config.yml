@@ -79,7 +79,8 @@ analytics:
 author:
   name             : "Jeremy Barnes"
   avatar           : "/assets/images/pic1.jpg"
-  bio              : "I'm a PhD student working on Cross-lingual Sentiment and Emotion Analysis for Under-resourced Languages"
+  bio              : "I'm a PostDoc at the University of Oslo. My main
+  research interests are cross-lingual and transfer learning methods for under-resourced languages, sentiment and emotion analysis."
   location         : # "Stuagard"
   email            :
   uri              :
