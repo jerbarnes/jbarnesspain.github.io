@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Cross-lingual"
+title                    : "Jeremy Barnes: Post-doc at LTG OSLO"
 title_separator          : "-"
 name                     : "Jeremy Barnes"
-description              : "Cross-lingual Sentiment and Emotion Analysis"
+description              : ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
