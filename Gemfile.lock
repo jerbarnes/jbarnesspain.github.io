@@ -109,6 +109,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.12)
   minimal-mistakes-jekyll!
+  nokogiri (>= 1.10.8)
   rake (>= 12.3.3)
 
 BUNDLED WITH
